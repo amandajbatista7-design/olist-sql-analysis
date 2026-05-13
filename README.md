@@ -41,22 +41,24 @@ Olist is a Brazilian e-commerce marketplace aggregator that connects small retai
 
 ## 📁 Project Structure
 
+```text
 olist-sql-analysis/
 │
-├── data/                         ← Raw CSV files (not pushed to GitHub)
+│── data/                         ← Raw CSV files (not pushed to GitHub)
 │
-├── queries/
-│   ├── 01_schema.sql             ← Table creation
-│   ├── 02_import.sql             ← Data import
-│   ├── 02b_data_quality.sql      ← Data quality checks
-│   ├── 03_exploration.sql        ← First look at the data
-│   ├── 04_revenue.sql            ← Revenue analysis
-│   ├── 05_customers.sql          ← Customer behavior
-│   ├── 06_sellers.sql            ← Seller performance
+│──  queries/
+│   │── 01_schema.sql             ← Table creation
+│   │── 02_import.sql             ← Data import
+│   │── 02b_data_quality.sql      ← Data quality checks
+│   │── 03_exploration.sql        ← First look at the data
+│   │── 04_revenue.sql            ← Revenue analysis
+│   │── 05_customers.sql          ← Customer behavior
+│   │── 06_sellers.sql            ← Seller performance
 │   └── 07_cohorts.sql            ← Cohort retention analysis
 │
-├── dashboard.png                 ← Power BI dashboard screenshot
+│── dashboard.png                 ← Power BI dashboard screenshot
 └── README.md
+```
 
 ---
 
@@ -96,4 +98,4 @@ olist-sql-analysis/
 
 ## 📋 Full Write-up
 
-[View the full project write-up on Notion]([https://iris-edam-ee9.notion.site/Olist-E-commerce-Analysis-SQL-Power-BI-35e634e4837e8026b54de49889e05086?source=copy_link])
+[View the full project write-up on Notion](https://iris-edam-ee9.notion.site/Olist-E-commerce-Analysis-SQL-Power-BI-35e634e4837e8026b54de49889e05086?source=copy_link)
